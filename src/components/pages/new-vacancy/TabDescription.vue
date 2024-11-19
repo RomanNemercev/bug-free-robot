@@ -4,39 +4,39 @@
     <JobBasicInfo />
 
     <!-- Подробности о компании -->
-    <CompanyDetails />
+    <!-- <CompanyDetails /> -->
 
     <!-- Подробности вакансии -->
-    <VacancyDetails />
+    <!-- <VacancyDetails /> -->
 
     <!-- Заработная плата -->
-    <SalaryDetails />
+    <!-- <SalaryDetails /> -->
 
     <!-- Место работы -->
-    <JobLocation />
+    <!-- <JobLocation /> -->
 
     <!-- Контактная информация -->
-    <ContactInfo />
+    <!-- <ContactInfo /> -->
   </div>
 </template>
 
 <script>
 import JobBasicInfo from './TabDescription/JobBasicInfo.vue'
-import CompanyDetails from './TabDescription/CompanyDetails.vue'
-import VacancyDetails from './TabDescription/VacancyDetails.vue'
-import SalaryDetails from './TabDescription/SalaryDetails.vue'
-import JobLocation from './TabDescription/JobLocation.vue'
-import ContactInfo from './TabDescription/ContactInfo.vue'
+// import CompanyDetails from './TabDescription/CompanyDetails.vue'
+// import VacancyDetails from './TabDescription/VacancyDetails.vue'
+// import SalaryDetails from './TabDescription/SalaryDetails.vue'
+// import JobLocation from './TabDescription/JobLocation.vue'
+// import ContactInfo from './TabDescription/ContactInfo.vue'
 
 export default {
   name: 'TabDescription',
   components: {
     JobBasicInfo,
-    CompanyDetails,
-    VacancyDetails,
-    SalaryDetails,
-    JobLocation,
-    ContactInfo,
+    // CompanyDetails,
+    // VacancyDetails,
+    // SalaryDetails,
+    // JobLocation,
+    // ContactInfo,
   },
 }
 </script>
